@@ -20,6 +20,8 @@
     <string name="akses_cepat"><b>Akses Cepat</b></string>
     <string name="ada">Ada voucher nganggur, nih</string>
     <string name="restoran_terdekat">Restoran terdekat</string>
-    <string name="bayar_jajan">Bayar Jajanan Lebih Hemat Pakai Gopay!</string>
-    <string name="desc_display">Temukan cinta kepada siapa yang</string>
+    <string name="bayar_jajan"><b>Bayar Jajanan Lebih Hemat Pakai Gopay!</b></string>
+    <string name="desc_display">Temukan cinta kepada siapa yang consectetur adipiscing elit. , consectetur adipiscing elit., consectetur adipiscing elit., consectetur adipiscing elit., consectetur adipiscing elit.</string>
+    <string name="beranda">Beranda</string>
+    <string name="promo">Promo</string>
 </resources>

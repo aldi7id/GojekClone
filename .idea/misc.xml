@@ -6,8 +6,12 @@
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/discount.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_account.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_arrow_right.xml" value="0.1" />
+        <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_communication_chat.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_explore.xml" value="0.1" />
+        <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_navigation_home.xml" value="0.1" />
+        <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_navigation_my_orders.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_pay.xml" value="0.1" />
+        <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_promo.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_search.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_topup.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_treasure.xml" value="0.1" />
@@ -22,8 +26,9 @@
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable/notif.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable/transparent.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable/xp_shape.xml" value="0.1" />
-        <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/layout/activity_main.xml" value="0.14733178654292342" />
+        <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/layout/item_main_service.xml" value="0.1" />
+        <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/menu/my_navigation_items.xml" value="0.1" />
       </map>
     </option>
   </component>
