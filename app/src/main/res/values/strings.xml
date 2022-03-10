@@ -15,4 +15,6 @@
     <string name="gopulsa">GoPulsa</string>
     <string name="check_in">Check in</string>
     <string name="lainnya">Lainnya</string>
+    <string name="remaining_xp">193 XP lagi ada Harta Karun</string>
+    <string name="harta_karun_bentar_lagi_hilang"><b>Harta Karun bentar lagi hilang</b></string>
 </resources>
