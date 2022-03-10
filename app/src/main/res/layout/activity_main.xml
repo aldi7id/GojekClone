@@ -176,10 +176,19 @@
                     android:src="@drawable/ic_explore"
                     android:contentDescription="@string/content_desc"
                     />
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:background="@drawable/notif"
+                    app:layout_constraintEnd_toEndOf="@id/explore_image"
+                    app:layout_constraintStart_toEndOf="@id/explore_image"
+                    app:layout_constraintTop_toTopOf="@id/explore_image"
+                    android:contentDescription="@string/content_desc"
+                    />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/topup"
+                    android:text="@string/explorer"
                     android:textColor="@color/white"
                     app:layout_constraintTop_toBottomOf="@+id/explore_image"
                     app:layout_constraintStart_toStartOf="parent"
