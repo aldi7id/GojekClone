@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">GojekClone</string>
     <string name="search"><![CDATA[Cari layanan, makanan, & tujuan]]></string>
+    <string name="content_desc">content desc</string>
+    <string name="rp_gopay"><b>Rp.109.048</b></string>
+    <string name="klik_cek_riwayat"><b>Klik &amp; cek riwayat</b></string>
+    <string name="bayar"><b>Bayar</b></string>
+    <string name="topup"><b>Isi Saldo</b></string>
 </resources>

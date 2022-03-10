@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 <androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/constraint_search"
     android:layout_width="match_parent"
     android:layout_height="56dp"
     android:background="@drawable/bg_search"
@@ -37,10 +38,159 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/search_bar"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/content_desc" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_gopay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/constraint_search"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_gopay"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="20dp"
+           >
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/gopay_master"
+                android:layout_width="150dp"
+            android:layout_height="70dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_margin="15dp"
+                android:background="@drawable/bg_gopay_white"
+                android:padding="5dp"
+                >
+                <ImageView
+                    android:id="@+id/gopay_text"
+                    android:layout_width="60dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ic_gopay_text"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:contentDescription="@string/content_desc"
+                    />
+                <TextView
+                    android:id="@+id/rp_gopay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/gopay_text"
+                    android:text="@string/rp_gopay"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/klik_cek_riwayat"
+                    android:textColor="#00aa13"
+                    app:layout_constraintTop_toBottomOf="@id/rp_gopay"/>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/gopay_master"
+                app:layout_constraintTop_toTopOf="parent"
+                >
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraint_bayar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/gopay_master"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginStart="10dp"
+                >
+                <ImageView
+                    android:contentDescription="@string/content_desc"
+                android:id="@+id/pay_image"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_pay"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                />
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/bayar"
+                android:textColor="@color/white"
+                app:layout_constraintTop_toBottomOf="@+id/pay_image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraint_topup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/constraint_bayar"
+                app:layout_constraintEnd_toStartOf="@id/constraint_explore"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                >
+                <ImageView
+                    android:contentDescription="@string/content_desc"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/topup_image"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ic_topup"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/topup"
+                    android:textColor="@color/white"
+                    app:layout_constraintTop_toBottomOf="@+id/topup_image"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraint_explore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginEnd="10dp"
+                >
+                <ImageView
+                    android:id="@+id/explore_image"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ic_explore"
+                    android:contentDescription="@string/content_desc"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/topup"
+                    android:textColor="@color/white"
+                    app:layout_constraintTop_toBottomOf="@+id/explore_image"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
