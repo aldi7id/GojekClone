@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/discount.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_account.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_arrow_right.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_explore.xml" value="0.1" />
@@ -10,15 +11,18 @@
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_search.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_topup.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_treasure.xml" value="0.1" />
+        <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable-v24/ic_voucher.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable/bg_gopay.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable/bg_gopay_white.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable/bg_search.xml" value="0.181" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable/bg_search_edit.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable/bg_search_text.xml" value="0.1" />
+        <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable/bg_voucher.xml" value="0.1" />
+        <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable/ic_gofood_seeklogo_com.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable/notif.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable/transparent.xml" value="0.1" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/drawable/xp_shape.xml" value="0.1" />
-        <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/layout/activity_main.xml" value="0.14733178654292342" />
         <entry key="..\:/Users/Anonymous/Documents/GojekClone/app/src/main/res/layout/item_main_service.xml" value="0.1" />
       </map>
     </option>

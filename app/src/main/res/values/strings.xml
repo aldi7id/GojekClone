@@ -17,4 +17,9 @@
     <string name="lainnya">Lainnya</string>
     <string name="remaining_xp">193 XP lagi ada Harta Karun</string>
     <string name="harta_karun_bentar_lagi_hilang"><b>Harta Karun bentar lagi hilang</b></string>
+    <string name="akses_cepat"><b>Akses Cepat</b></string>
+    <string name="ada">Ada voucher nganggur, nih</string>
+    <string name="restoran_terdekat">Restoran terdekat</string>
+    <string name="bayar_jajan">Bayar Jajanan Lebih Hemat Pakai Gopay!</string>
+    <string name="desc_display">Temukan cinta kepada siapa yang</string>
 </resources>
