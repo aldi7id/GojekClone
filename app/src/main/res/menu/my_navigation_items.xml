@@ -8,10 +8,10 @@
         android:icon="@drawable/ic_promo" />
 
     <item android:id="@+id/order"
-        android:title="Pesanan"
+        android:title="@string/pesanan"
         android:icon="@drawable/ic_navigation_my_orders" />
     <item android:id="@+id/chat"
-        android:title="Chat"
+        android:title="@string/chat"
         android:icon="@drawable/ic_communication_chat" />
 
 </menu>

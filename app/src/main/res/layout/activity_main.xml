@@ -544,6 +544,19 @@
     app:layout_constraintTop_toBottomOf="@id/access"
     android:padding="10dp"
     >
+    <androidx.cardview.widget.CardView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            >
+
     <ImageView
         android:contentDescription="@string/content_desc"
         app:layout_constraintStart_toStartOf="parent"
@@ -571,12 +584,27 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/constraint_gofood_terdekat"
+            app:layout_constraintTop_toBottomOf="@id/constraint_voucher"
+            android:padding="10dp"
+            >
+
+           <androidx.cardview.widget.CardView
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            >
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraint_gofood_terdekat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/constraint_voucher"
         android:padding="10dp"
         >
         <ImageView
@@ -607,7 +635,10 @@
             app:layout_constraintBottom_toBottomOf="parent"
             />
     </androidx.constraintlayout.widget.ConstraintLayout>
-    <androidx.constraintlayout.widget.ConstraintLayout
+        </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
         android:padding="10dp"
         android:id="@+id/constraint_display"
         android:layout_width="match_parent"
