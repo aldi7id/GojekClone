@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GojekClone</string>
+    <string name="search"><![CDATA[Cari layanan, makanan, & tujuan]]></string>
 </resources>
