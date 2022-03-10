@@ -7,4 +7,12 @@
     <string name="bayar"><b>Bayar</b></string>
     <string name="topup"><b>Isi Saldo</b></string>
     <string name="explorer"><b>Explorer</b></string>
+    <string name="goride">GoRide</string>
+    <string name="gocar">GoCar</string>
+    <string name="gofood">GoFood</string>
+    <string name="gosend">GoSend</string>
+    <string name="gomart">GoMart</string>
+    <string name="gopulsa">GoPulsa</string>
+    <string name="check_in">Check in</string>
+    <string name="lainnya">Lainnya</string>
 </resources>
