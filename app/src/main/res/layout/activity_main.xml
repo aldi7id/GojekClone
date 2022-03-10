@@ -101,6 +101,7 @@
                     android:layout_height="wrap_content"
                     app:layout_constraintTop_toBottomOf="@id/gopay_text"
                     android:text="@string/rp_gopay"
+                    android:textSize="18sp"
                     android:textColor="@color/black"
                     />
                 <TextView
