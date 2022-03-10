@@ -44,7 +44,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:background="@drawable/bg_search_text"
         android:autofillHints="Cari"
-        android:text="@string/search"
+        android:hint="@string/search"
         android:drawableStart="@drawable/ic_search"
         />
 
